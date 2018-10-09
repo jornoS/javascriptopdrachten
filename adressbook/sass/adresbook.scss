@@ -32,7 +32,6 @@ body {
 }
 
 div.userlist{
-
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -44,7 +43,7 @@ div.user{
     border-right-color: $white;
     border-left-color: $white;
     font-size: 10px;
-}
+} 
 
 ul {
     position: fixed;
@@ -75,7 +74,8 @@ li:hover{
     padding: 1rem;
 }
 .info{
-    margin-top: 20%;
+    margin-top: 30%;
+    text-align: center;
 }
 
 footer{

@@ -57,7 +57,7 @@ fetch('https://randomuser.me/api/?results=10').then(function(response) {
       }
 
     });
-  function help() {
+  function closeModal() {
       modal = document.getElementById('myModal');
       modal.style.display = "none";
   }

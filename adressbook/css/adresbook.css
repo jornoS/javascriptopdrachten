@@ -68,7 +68,8 @@ li:hover {
   padding: 1rem; }
 
 .info {
-  margin-top: 20%; }
+  margin-top: 30%;
+  text-align: center; }
 
 footer {
   background-color: #FFFFFF;
