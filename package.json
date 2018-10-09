@@ -1,0 +1,29 @@
+{
+  "name": "javascriptopdrachten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jornoS/javascriptopdrachten.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jornoS/javascriptopdrachten/issues"
+  },
+  "homepage": "https://github.com/jornoS/javascriptopdrachten#readme",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-sass": "^3.0.1"
+  },
+  "devDependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-node-sass": "^1.0.1"
+  }
+}

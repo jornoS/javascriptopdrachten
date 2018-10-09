@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/adresbook.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>adresbook</title>
-</head>
-<body>
-    <div class="header">
-      <header>
-        <button class="header__button--left"><i class="fa fa-search"></i></button>
-        <input class="header__search"type="text" name="Search" placeholder="Search...">
-        <button class="header__button--right"><i class="fa fa-microphone"></i></button>
-        <button class="header__button--blue"><i class="fa fa-plus"></i></button>
-      </header>
-    </div>
- 
-  <div id="myModal" class="modal">
-    <p class="info"></p>
-  </div>
-  
-  <ul>
-    <li>A</li>
-    <li>B</li>
-    <li>C</li>
-    <li>D</li>
-    <li>E</li>
-    <li>F</li>
-    <li>G</li>
-    <li>H</li>
-    <li>I</li>
-    <li>J</li>
-    <li>K</li>
-    <li>L</li>
-    <li>M</li>
-    <li>N</li>
-    <li>O</li>
-    <li>P</li>
-    <li>Q</li>
-    <li>R</li>
-    <li>S</li>
-    <li>T</li>
-    <li>U</li>
-    <li>V</li>
-    <li>W</li>
-    <li>X</li>
-    <li>Y</li>
-    <li>Z</li>
-  </ul>
-  <div class="contacts"></div>
-
-  <footer>
-    <button class="footer__button"><i class="fa fa-commenting"></i></button>
-    <button class="footer__button"><i class="fa fa-phone"></i></button>
-    <button class="footer__button"><i class="fa fa-address-book"></i></button>
-    <button class="footer__button"><i class="fa fa-user"></i></button>
-  </footer>
-
-<script src="javascript/adres.js" ></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/adresbook.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>adresbook</title>
+    </head>
+    <body>
+        <div class="header">
+            <header>
+                <input class="header__search" type="text" name="Search" placeholder="Search...">
+                <button class="header__button">
+                    <i class="fa fa-search"></i>
+                </button>
+                <button class="header__button">
+                    <i class="fa fa-microphone"></i>
+                </button>
+                <button class="header__button--blue">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </header>
+        </div>
+        <div id="myModal" class="modal">
+            <p class="info"></p>
+            <button class="modal__button" onclick="help()">back</button>
+        </div>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>E</li>
+            <li>F</li>
+            <li>G</li>
+            <li>H</li>
+            <li>I</li>
+            <li>J</li>
+            <li>K</li>
+            <li>L</li>
+            <li>M</li>
+            <li>N</li>
+            <li>O</li>
+            <li>P</li>
+            <li>Q</li>
+            <li>R</li>
+            <li>S</li>
+            <li>T</li>
+            <li>U</li>
+            <li>V</li>
+            <li>W</li>
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+        </ul>
+        <div class="contacts"></div>
+        <footer>
+            <button class="footer__button">
+                <i class="fa fa-commenting"></i>
+            </button>
+            <button class="footer__button">
+                <i class="fa fa-phone"></i>
+            </button>
+            <button class="footer__button">
+                <i class="fa fa-address-book"></i>
+            </button>
+            <button class="footer__button">
+                <i class="fa fa-user"></i>
+            </button>
+        </footer>
+        <script src="javascript/adres.js"></script>
+    </body>
 </html>

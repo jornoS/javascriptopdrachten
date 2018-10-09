@@ -9,17 +9,31 @@ body {
   background-color: #FFFFFF;
   padding: 1rem; }
 
+.header__button {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #818181;
+  height: 30px; }
+
+.header__search {
+  height: 25px;
+  width: 190px; }
+
 .header__button--blue {
   color: #8491F9;
   background-color: #FFFFFF;
   border: #FFFFFF;
   position: fixed;
-  right: 0; }
+  right: 0;
+  font-size: 30px; }
 
-div.userdiv {
-  margin-top: 70px; }
+div.userlist {
+  margin-top: 70px;
+  margin-bottom: 70px; }
 
 div.user {
+  display: flex;
+  margin: 5%;
   width: 85%;
   border-style: outset;
   border-right-color: #FFFFFF;
@@ -46,23 +60,15 @@ li:hover {
   height: 100%;
   background-color: #FFFFFF; }
 
-.header__button--left {
-  background-color: #FFFFFF;
-  color: #000000;
-  border: 2px solid #818181;
-  border-right: 0px;
-  height: 30px; }
+.modal__button {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem; }
 
-.header__button--right {
-  background-color: #FFFFFF;
-  color: #000000;
-  border: 2px solid #818181;
-  border-left: 0px;
-  height: 30px; }
-
-.header__search {
-  height: 25px;
-  width: 190px; }
+.info {
+  margin-top: 20%; }
 
 footer {
   background-color: #FFFFFF;
